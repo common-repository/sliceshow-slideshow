@@ -1,0 +1,62 @@
+.xSSSlideshow{
+    display:inline-block;
+    position:relative;
+    width:995px;
+    height:365px;
+}
+.xSSSlideshow li{
+    float:left;
+    display:inline;
+    overflow:hidden;
+    margin:0px;
+}
+.xSSSlideshow .xA{
+    position:absolute;
+    z-index:1;
+    width:597px;
+    height:201px;
+    margin-right:0px;
+}
+.xSSSlideshow li a{
+    color:#fff;
+    visibility:visible;
+    position:absolute;
+    z-index:100;
+    background:url(images/cat_transparent_bg.png);
+    padding:8px;
+    margin:0px;
+    text-align:left;
+    text-decoration: none;
+}
+.xSSSlideshow li a:hover{
+    text-decoration:underline;
+}
+.xSSSlideshow li{
+    float:left;
+    display:inline;
+    overflow:hidden;
+    position:absolute;
+}
+.xSSSlideshow .xB{
+    position:absolute;
+    z-index:1;
+    width:397px;
+    height:201px;
+    margin-left:598px;
+}
+.xSSSlideshow .xC{
+    position:absolute;
+    width:0px;
+    height:201px;
+}
+.xSSSlideshow .xD,
+.xSSSlideshow .xE,
+.xSSSlideshow .xF{
+    position:absolute;
+    width:331px;
+    height:163px;
+    margin-top:202px;
+}
+.xSSSlideshow .xF{
+    margin-right:0px;
+}
